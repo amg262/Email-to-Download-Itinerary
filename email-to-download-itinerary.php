@@ -7,7 +7,7 @@
 * Author:      Andrew Gunn, Ryan Van Ess, Orion Group LLC
 * Author URI:  http://andrewgunn.xyz
 * License:     GNU General Public License (Version 2 - GPLv2)
-* Text Domain: email-to-download
+* Text Domain: email-to-download-itinerary
 */
 if( ! defined( 'ED_HACK_MSG' ) ) define( 'ED_HACK_MSG', __( 'Sorry cowboy! This is not your place', 'email-to-download' ) );
 
