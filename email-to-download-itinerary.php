@@ -3,8 +3,8 @@
 * Plugin Name: Email to Download Itinerary
 * Plugin URI:  https://andrewgunn.xyz/email-to-download-itinerary
 * Version:     1.0.0
-* Description: A plugin that helps you to collect email before download
-* Author:      Andrew Gunn
+* Description: Collect email from users before downloading an intinerary
+* Author:      Andrew Gunn, Ryan Van Ess, Orion Group LLC
 * Author URI:  http://andrewgunn.xyz
 * License:     GNU General Public License (Version 2 - GPLv2)
 * Text Domain: email-to-download
