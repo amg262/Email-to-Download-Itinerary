@@ -35,6 +35,20 @@ require_once( 'neptune-builder/builder-loader.php' );
 
 $has_taxonomy = True;
 
+/**
+* Flushing permalinks for CPTs on DEACTIVATE
+*/
+register_deactivation_hook( __FILE__, 'flush_rewrite_rules' );
+
+/**
+* Flushing permalinks for CPTs ON ACTIVATE
+*/
+register_activation_hook( __FILE__, 'etdi_flush_rewrites' );
+
+function etdi_flush_rewrites() {
+    flush_rewrite_rules();
+}
+
 if( ! class_exists( 'ED_Plugin' ) ) {
     /**
      * Class ED_Plugin
